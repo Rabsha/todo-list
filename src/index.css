@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #153677, #4e085f);
+}
+.mybox {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.heading-work h1{
+  font-weight: bold;
+}
+.Mydivform {
+  background: #fff;
+  padding: 80px 40px;
+  width: 50%;
+  margin: 0 auto;
+}
+.form-work {
+  height: 100vh;
+}
+form {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.mybox input {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 10px 12px;
+  width: 90%;
+  border: 1px solid #ccc;
+  color: #000;
+}
+.mybox button {
+  width: 25%;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.answaretodo {
+  padding-top: 45px;
+}
+.answaretodo ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+.answaretodo{
+  position: relative;
+}
+.answaretodo li::before {
+  position: absolute;
+  content: '';
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  left: 0;
+  border: 2px solid #ff5945;
+}
+.answaretodo li{
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  margin-top: 5px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+.MyCheck {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+.btnwork {
+  border: none;
+  background: #da6060;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+.MyCheck a{
+  text-decoration: none;
+  color:#000;
+}
+.MyClass{
+  text-decoration: line-through !important;
+  color: red !important;
+}
