@@ -10,7 +10,7 @@ const Practice = () => {
   return (
     <>
       <div className="card">
-        <h1>My name is Aaazzaaannnn {heading}</h1>
+        <h1>My name is {heading}</h1>
         <h2>Hello I am here to {title}</h2>
         <button type="button" onClick={() => setCheck((prevCheck) => prevCheck + 1)}> Introduction {check} </button> 
       </div>
